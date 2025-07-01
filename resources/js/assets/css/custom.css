@@ -1,0 +1,201 @@
+
+/*LAYOUT -> NAVIGATION STYLE*/
+
+
+
+.custom-sidebar-menu > nav > ul > li  {
+    position: absolute;
+    left: 0;
+    top: 0%;
+   
+}
+
+.custom-sidebar-menu > nav > ul > li > a {  
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;   
+  color: #253D4E;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 1px;
+}
+
+.custom-sidebar-menu > nav > ul > li > a i {
+  font-size: 8px;
+  position: relative;
+  margin-left: 30px;
+
+}
+
+.custom-sidebar-menu > nav > ul > li > a.active {
+  color: #3BB77E;
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu {
+  position: absolute;
+  left: 0;
+  top: -35px;
+  background-color: #ffffff;
+  min-width: 250px;
+  padding: 10px 10px;
+  -webkit-transition: all .25s ease 0s;
+  transition: all .40s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 20px;
+  margin-left: 200px;
+  border-radius: 10px;
+  z-index: 999;
+  border: 1px solid #ececec;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li {
+  line-height: 1;
+  display: block;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li ul.level-menu {
+  position: absolute;
+  left: 100%;
+  top: -30px;
+  background-color: #ffffff;
+  width: 240px;
+  padding: 33px 0 35px;
+  -webkit-transition: all .25s ease 0s;
+  transition: all .25s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #ececec;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li a i {
+  font-size: 9px;
+  float: right;
+  position: relative;
+  top: 4px;
+  color: #253D4E;
+  font-weight: 700;
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li:hover > a {
+  color: #000;
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li:hover ul.level-menu {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0px;
+}
+
+.custom-sidebar-menu > nav > ul > li:hover > a {
+  color: #3BB77E;
+}
+
+.custom-sidebar-menu > nav > ul > li:hover ul.sub-menu {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 12px;
+}
+
+.custom-sidebar-menu > nav > ul > li:hover ul.mega-menu {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0;
+}
+
+.custom-sidebar-menu.hover-boder > nav > ul > li > a {
+  position: relative;
+}
+
+.custom-sidebar-menu.hover-boder > nav > ul > li > a::after {
+  content: none;
+  position: absolute;
+  left: auto;
+  right: 0;
+  bottom: 34px;
+  height: 1px;
+  width: 0;
+  -webkit-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  background: #3BB77E;
+}
+
+.custom-sidebar-menu.hover-boder > nav > ul > li:hover > a::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.custom-sidebar-menu.hover-boder.hover-boder-white > nav > ul > li > a::after {
+  bottom: 18px;
+  background: #ffffff;
+}
+
+.custom-sidebar-menu.hover-boder.hover-boder-modify > nav > ul > li > a::after {
+  bottom: 28px;
+}
+
+.custom-sidebar-menu.main-menu-light-white > nav > ul > li > a {
+  color: white;
+}
+
+.custom-sidebar-menu.menu-padding > nav > ul > li {
+  background-color: #f3f3f3;
+  min-width: 250px;
+ margin-top: -11px;
+
+}
+
+/* .custom-sidebar-menu.menu-padding > nav > ul > li:first-child {
+  padding-left: 0 !important;
+
+} */
+
+.custom-sidebar-menu.main-menull-h > nav > ul > li {
+  line-height: 20px;
+}
+
+.custom-sidebar-menu.main-menu-lh-3 > nav > ul > li {
+  line-height: 80px;
+}
+
+.custom-sidebar-menu.main-menu-grow {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.custom-sidebar-menu > nav > ul > li {
+  display: inline-block;
+  position: relative;
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li a {
+  font-size: 14px;
+  color: #7E7E7E;
+  display: block;
+  padding: 0 15px;
+  font-weight: 700;
+  color: #253D4E;
+
+}
+
+.custom-sidebar-menu > nav > ul > li ul.sub-menu li a:hover {
+  color: #3BB77E;
+}
+
+.custom-sidebar-menu.main-menu-lh-1 > nav > ul > li {
+  line-height: 70px;
+}

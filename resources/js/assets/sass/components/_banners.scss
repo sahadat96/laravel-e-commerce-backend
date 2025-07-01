@@ -1,0 +1,317 @@
+$font-heading: 'Quicksand', sans-serif;
+$font-text: 'Lato', sans-serif;
+
+$font-xxs: 12px;
+$font-xs: 13px;
+$font-sm: 14px;
+$font-md: 16px;
+$font-lg: 17px;
+$font-xl: 19px;
+$font-xxl: 58px;
+
+//2.COLOR
+$color-brand: #3BB77E;
+$color-brand-dark: #29A56C;
+$color-brand-2: #FDC040;
+$color-primary: #5a97fa;
+$color-secondary: #3e5379;
+$color-warning: #ff9900;
+$color-danger: #FD6E6E;
+$color-success: #81B13D;
+$color-info: #2cc1d8;
+$color-text: #7E7E7E;
+$color-heading: #253D4E;
+$color-grey-1: $color-heading;
+$color-grey-2: #242424;
+$color-grey-4: #adadad;
+$color-grey-9: #f4f5f9;
+$color-muted: #B6B6B6;
+$color-body: #7E7E7E;
+
+$color-1: #fddde4;
+$color-2: #cdebbc;
+$color-3: #d1e8f2;
+$color-4: #cdd4f8;
+$color-5: #f6dbf6;
+$color-6: #fff2e5;
+$color-7: #d77f7a;
+$color-8: #63a2c1;
+$color-9: #F2FCE4;
+$color-10: #FFFCEB;
+$color-11: #ECFFEC;
+$color-12: #FEEFEA;
+$color-13: #FFF3EB;
+$color-14: #FFF3FF;
+$color-15: #F2FCE4;
+
+$color-hot: #f74b81;
+$color-new: #55bb90;
+$color-sale: #67bcee;
+$color-best: #f59758;
+
+//3.Boxshadow
+$box-shadown-1: 20px 20px 40px rgba(0,0,0,.07);;
+$box-shadown-2: 5px 5px 15px rgba(0, 0, 0, 0.05);
+$box-shadown-3: 20px 20px 54px rgba(0, 0, 0, 0.03);
+$box-shadown-3-hover: 20px 20px 54px rgba(0, 0, 0, 0.05);
+
+
+//4. Border
+$border-color: #ececec;
+$border-color-2: #BCE3C9;
+
+//5. Background
+$background-1: #F2F3F4;
+$background-2: #F4F6FA;
+$background-3: #DEF9EC;
+
+
+/*COMPONENTS -> BANNERS*/
+.banner-left-icon {
+    position: relative;
+    background: #F4F6FA;
+    padding: 20px;
+    border-radius: 10px;
+    &:hover {
+        .banner-icon {
+            transform: translateY(-5px);
+            transition-duration: 0.3s;
+        }
+    }
+    .banner-icon {
+        max-width: 60px;
+        margin-right: 20px;
+        transition-duration: 0.3s;
+    }
+    .banner-text {
+        h3 {
+            color: $color-grey-2;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 0;
+            color: $color-grey-4;
+        }
+    }
+    &.style-2 {
+        position: relative;
+        border: 1px solid $border-color;
+        padding: 20px;
+    }
+}
+.banner-img {
+    position: relative;
+    clear: both;
+    border-radius: 10px;
+    overflow: hidden;
+    img {
+        border-radius: 10px;
+    }
+    &:hover {
+        img {
+            opacity: 0.9;
+        }
+    }
+    &.banner-1 {
+        .banner-text {
+            top: 30%;
+        }
+        &.home-3 {
+            margin-bottom: 24px;
+            border-radius: 10px;
+            overflow: hidden;
+            max-height: 348px;
+        }
+    }
+    &.banner-2 {
+        .banner-text {
+            right: 10px;
+        }
+    }
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        transform: translateY(-50%);
+        padding: 0 50px;
+        span {
+            color: $color-grey-4;
+        }
+        h4 {
+            font-weight: 700;
+            margin-bottom: 15px;
+            min-height: 100px;
+        }
+        &:hover h4 {
+            transform: translateY(-5px);
+        }
+        a {
+            i {margin-left: 5px;transition-duration: 0.3s;font-size: 10px;}
+            &:hover i {margin-left: 10px; transition-duration: 0.3s;}
+        }
+
+    }
+    &.style-2 {
+        border-radius: 15px;
+        overflow: hidden;
+        height: 520px;
+        background:url(../imgs/banner/banner-4.png) no-repeat center bottom;
+        background-size: cover;
+        width: 100%;
+        .banner-text {
+            top: 50px;
+            transform: none;
+        }
+    }
+    &.style-3 {
+        border-radius: 15px;
+        overflow: hidden;
+        height: 538px;
+        background:url(../imgs/banner/banner-11.png) no-repeat center bottom;
+        background-size: cover;
+        width: 100%;
+        .banner-text {
+            top: 50px;
+            transform: none;
+        }
+    }
+    &.style-4 {
+        .banner-text h4 {
+            font-size: 28px;
+        }
+    }
+    &.style-5 {
+        .banner-text {
+            right: 0;
+            padding: 0 30px;
+        }
+    }
+    &.style-6 {
+        .banner-text {
+            right: 0;
+            padding: 0 20px 0 0;
+            h6 {
+                font-size: 16px;
+            }
+        }
+    }
+}
+.banner-big {
+    .btn {
+        background: $color-brand !important;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 13px;
+        padding: 10px 22px;
+        border: 0;
+        &:hover {
+            background: $color-brand-2 !important;
+        }
+    }
+}
+
+/*Deal banners*/
+.deal {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #fff;
+	background-size: contain;
+	background-position: right center;
+	background-repeat: no-repeat;
+	min-height: 420px;
+
+    > div {
+        width: 100%;
+    }
+
+    h2 {
+        color: $color-danger;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 1.1;
+        margin-bottom: 5px;
+    }
+    h5 {
+        color: $color-grey-2;
+        font-weight: 400;
+        letter-spacing: 0;
+        margin-bottom: 20px;
+        max-width: 240px;
+    }
+    .deal-content {
+        align-self: center;
+    }
+    .product-title {
+        max-width: 57%;
+        margin-bottom: 20px;
+        font-size: 45px;
+        line-height: 1.23;
+        a {
+            color: $color-grey-1;
+        }
+    }
+
+
+    .btn {
+        background: $color-brand;
+        border: 0;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 10px 24px;
+
+        i {
+            margin-left: 5px;
+            transition-duration: 0.3s;
+            font-size: 12px;
+        }
+
+        &:hover i {
+            margin-left: 10px;
+            transition-duration: 0.3s;
+        }
+    }
+
+    .deal-bottom {
+        align-self: flex-end;
+        .deals-countdown {
+            margin-left: -12px;
+            margin-bottom: 20px;
+            .countdown-section {
+                border: 2px solid $color-brand;
+                box-shadow: $box-shadown-3;
+            }
+        }
+    }
+
+}
+
+.banner-bg {
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.banner-features {
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 4px;
+    border: 1px solid $border-color;
+    box-shadow: $box-shadown-3;
+    &:hover {
+        box-shadow: $box-shadown-3-hover;
+    }
+    img {display: inline-block;margin-bottom: 15px;}
+    h4 {
+        font-size: 13px;
+        font-weight: 700;
+        display: inline-block;
+        padding: 9px 8px 6px 8px;
+        line-height: 1;
+        border-radius: 4px;
+        color: $color-brand;
+    }
+}
