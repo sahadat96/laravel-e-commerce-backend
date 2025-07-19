@@ -92,3 +92,9 @@ A fully functional e-commerce backend built with Laravel, featuring JWT authenti
 | Logout           | `/api/logout` | POST   | Yes           |
 
 
+
+
+
+- **Live Frontend :** [Visit Site](https://cheaprategallery.com)  
+- **Live Backend :** [Visit Site](https://famousdealsonline.com) 
+
