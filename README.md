@@ -2,6 +2,9 @@
 
 A fully functional e-commerce backend built with Laravel, featuring JWT authentication, product management, cart system, orders, and user roles.  
 
+- **Live Frontend :** [Visit Site](https://cheaprategallery.com)  
+- **Live Backend :** [Visit Site](https://famousdealsonline.com) 
+
 ## ✨ Features  
 
 - **🔐 Secure Authentication**  
@@ -94,7 +97,4 @@ A fully functional e-commerce backend built with Laravel, featuring JWT authenti
 
 
 
-
-- **Live Frontend :** [Visit Site](https://cheaprategallery.com)  
-- **Live Backend :** [Visit Site](https://famousdealsonline.com) 
 
