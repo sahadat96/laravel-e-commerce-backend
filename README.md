@@ -1,28 +1,28 @@
-# 🛍️ E-Commerce REST API (Laravel)  
+#  E-Commerce REST API (Laravel)  
 
 A fully functional e-commerce backend built with Laravel, featuring JWT authentication, product management, cart system, orders, and user roles.  
 
 - **Live Frontend :** [Visit Site](https://cheaprategallery.com)  
 - **Live Backend :** [Visit Site](https://famousdealsonline.com) 
 
-## ✨ Features  
+##  Features  
 
-- **🔐 Secure Authentication**  
+- ** Secure Authentication**  
   - JWT-based login/register system 
 
 - **🛒 Product Management**  
   - Full CRUD operations for products  
   - Product categories and tags  
 
-- **📦 Order System**  
+- ** Order System**  
   - Complete checkout process  
   - Order history tracking  
 
-- **👥 User Management**  
+- ** User Management**  
   - Role-based access control (Admin/Customer)  
   - User profile management  
 
-## 🚀 Quick Setup  
+##  Quick Setup  
 - **Prerequisites**  
   - PHP 8.1+  
   - Composer
