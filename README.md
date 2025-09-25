@@ -10,7 +10,7 @@ A fully functional e-commerce backend built with Laravel, featuring JWT authenti
 - ** Secure Authentication**  
   - JWT-based login/register system 
 
-- **🛒 Product Management**  
+- ** Product Management**  
   - Full CRUD operations for products  
   - Product categories and tags  
 
@@ -66,7 +66,7 @@ A fully functional e-commerce backend built with Laravel, featuring JWT authenti
    php artisan serve
    ```
 
-## 📚 API Endpoints
+##  API Endpoints
 
 ### Products
 | Feature          | Endpoint          | Method | Auth Required |
